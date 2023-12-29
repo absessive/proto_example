@@ -1,0 +1,8 @@
+AllCops:
+  NewCops: enable
+  RubyInterpreters:
+    - ruby
+  TargetRubyVersion: 3.2
+Layout/LineLength:
+  Exclude:
+    - 'proto/**/*.rb'
